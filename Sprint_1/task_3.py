@@ -6,12 +6,10 @@ world_champions = {
     2018: 'Франция',
 }
 
-# Добавление в существующий словарь новые данные и отображение на экране в формате год - страна
 world_champions [2022] = 'Аргентина'
 for year in world_champions.keys():
     print(year, '-', world_champions[year])
 
-# Проверка содержания данных в словаре
 country = 'Италия'
 if 2022 in world_champions:
     print(country + ' cтановилась чемпионом мира по футболу в 21 веке!')

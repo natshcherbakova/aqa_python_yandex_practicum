@@ -14,7 +14,6 @@ tickets = {
     5: ['E2E_2', 'API_61']
 }
 
-# Удаление дублей из списков с тикетами
 def remove_duplicates(ticket_list, used_tickets):
     unique_tickets = []
 

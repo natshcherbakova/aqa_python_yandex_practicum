@@ -13,7 +13,6 @@ class TestCase:
     def set_result(self, result):
         self.result = result
 
-# Вариант списка в столбик
     def get_test_case(self):
         print('Шаги:')
         for num, step in self.steps.items():
